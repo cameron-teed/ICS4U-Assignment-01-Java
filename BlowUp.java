@@ -72,7 +72,7 @@ final class BlowUp {
         }
       //Prevents program from crashing when numbers are on the end of the string
       } catch (Exception e) {
-        finalString = finalString + userString.charAt(charCounter);
+        finalString = finalString + "";
       }
     }
     // Prints final blown up string
